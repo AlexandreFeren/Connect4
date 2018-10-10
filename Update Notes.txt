@@ -1,0 +1,55 @@
+
+DEBUG LOG
+High Priority problems:
+	slice() must be renamed as it is a keyword
+
+Low Priority problems:
+	bestOfX needs arbitrary match sizes
+	shortcuts needs more functionality
+	os.cls() not working
+	implement punishments again
+	move error checking outside of functions
+    
+REQUESTED FEATURES
+	make export actually go to a text file
+	allow text files as input in setBoard
+	game notation for replay
+	read board from text file
+	game AI
+    
+NOTES
+	added graphics
+	added check to see if board is full in plop()
+	added an option to input a board with one input in debug.
+		works with the actual board setup or with the game history
+	fixed diagonal win condition 
+	added error checking in function selection
+	removed punish temporarily
+	added debug parameter to some functions, defaults to False
+	made main gameLoop() function to clean up code significantly
+	made bestOfX() that runs the game loop until there is a winner over x matches
+	made a function for each interface input and an interface to go with these
+	cleaned up plop, testWinV, testWinH, switchPlayer functions and retained original 
+
+Functions:
+	Working as Intended:
+		gameLoop
+		bestOfX
+		shortcuts
+		nameChange
+		end
+		printConnect
+		plop
+		checkWinV
+		checkWinH
+		checkWins
+		reset
+		switchPlayer
+		debug
+		checkWinDf
+		checkwinDb
+		export
+		setBoard
+
+	Not Implemented:
+		slice
